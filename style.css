@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background: green;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.tasks {
+    margin-top: 30px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background: #007bff;
+}
+
+button:hover {
+    background-color: red;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.completed {
+    text-decoration: line-through;
+    color: white;
+}
